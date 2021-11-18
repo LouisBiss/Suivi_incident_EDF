@@ -1,0 +1,64 @@
+.box1,.box6,.box7,.box5{
+    /*background-color: #09357a;*/
+    width: 100%;
+
+}
+.box2,.box3,.box4,.box8{
+    /*background-color: #8dbceb;*/
+    width: 100%;
+}
+.box{
+    vertical-align: middle;
+    text-decoration: aliceblue;
+
+}
+select{
+    width: 100%;
+    margin-top:1rem;
+    border:none;
+    color: aliceblue;
+}
+
+option{
+    color: aliceblue;
+}
+#depart,#cause,#com,#autre{
+    background-color: #09357a;
+    height: 3rem;
+
+}
+#poste,#incident,#sympa,#date{
+    background-color: #8dbceb;
+    height: 3rem;
+}
+.input#date{
+    width: 10rem;
+}
+
+.label_box_1,.label_box_6,.label_box7,.label_box_5{
+    color: #09357a;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.label_box_2,.label_box_3,.label_box_4,.label_box8{
+    color: #8dbceb;
+    font-weight: bold;
+    font-size: 1rem;
+}
+input{
+    width: 100%;
+    border: none;
+    margin-top: 1rem;
+}
+#com{
+    margin-top: 1rem;
+    border:none; 
+}
+.com,.date,.autre{
+    color: aliceblue;
+}
+
+
+#sympa{
+    height: 3.145rem;
+}

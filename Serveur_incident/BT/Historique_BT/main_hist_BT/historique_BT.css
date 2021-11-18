@@ -1,0 +1,129 @@
+*{
+    font-family: arial;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.logo_edf{
+    position:absolute;
+    top:10px;
+    right:15px;
+    width: 5rem;
+    height: 5rem;
+}
+
+.icones{
+    color:#E7590F;
+    margin-top:1.25rem;
+   
+}
+
+.TITRE{
+    background-color:#09357a ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    margin-top:1.5rem;
+    text-align: center;
+
+    width:27rem;
+    border-radius:40px;
+
+    font-weight: bold;
+    font-size:1.4rem;
+    color: white;
+}
+
+/* Tableau */
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #09357a;
+    color:aliceblue;
+
+  }
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.case_com{
+    word-wrap:break-word; 
+    overflow-wrap:break-word;
+    width:30%;
+}
+
+/*Critère de sélection */
+
+.sous_selec{
+    margin-right: 1rem;
+}
+.poste{
+    min-width: 6rem;
+}
+.cause{
+    width: 10px;
+}
+.selection{
+    background-color: #09357a;
+    padding: 1rem;
+    border-radius: 10px 10px 0px 0px;
+}
+p{
+    color: aliceblue;
+}
+.selec{
+    font-weight: bold;
+}
+
+/* Mutli critère de sélection */
+
+.multi_selection{
+    background-color: #09357a;
+    border-radius: 0px 0px 0px 0px;
+    width: 100%;
+    display: flex;
+}
+.crit{
+    margin-top: 0.9rem;
+}
+.button1,.button2,.button3{
+    margin-right:3rem;
+}
+.button1{
+    margin-left: 5rem;
+}
+.selec2{
+    font-weight: bold;
+    margin-left: 1rem;
+
+}
+
+/* Bouton Exportez */
+
+
+
+.excel{
+    background-color: #0d6f38;
+    border: none;
+    font-weight: bold;
+    color: aliceblue;
+    padding: 1rem;
+    cursor:pointer;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}

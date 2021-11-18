@@ -1,0 +1,41 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #09357a;
+    color:aliceblue;
+
+  }
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.case_com{
+    word-wrap:break-word; 
+    overflow-wrap:break-word;
+    width:30%;
+}
+
+/*Bouton exporter*/
+.col-6{
+    margin:auto;
+}
+
+.excel{
+    background-color: #0d6f38;
+    border: none;
+    font-weight: bold;
+    color: aliceblue;
+    padding: 1rem;
+    cursor:pointer;
+    border-radius: 40px;
+}

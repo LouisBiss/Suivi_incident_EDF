@@ -1,0 +1,16 @@
+*{
+    font-family: arial;
+}
+
+.listes{
+    display: inline-block;
+    position: relative;
+}
+
+.Retour{
+    position:absolute;
+}
+.Accueil{
+    display: flex;
+    justify-content: center;
+}
